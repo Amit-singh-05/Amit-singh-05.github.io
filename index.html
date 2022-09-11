@@ -1,19 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amit</title>
-    <style>
-        #navbar{
-            width: 100%;
-            height: 30px;
-            border: 1px solid red;
-        }
-    </style>
-</head>
-<body>
-    <div id="navbar"></div>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" type="image/png" href="./images/fevicon.jpeg" />
+		<title>Amit Singh | Full Stack Developer.</title>
+
+		<meta name="description" content="Amit Singh Portfolio." />
+		<meta name="keywords" content="Amit, Html, Css, Javascript and Java" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<header class="header" role="banner" id="top">
+			<div class="row">
+				<nav class="nav" role="navigation">
+					<ul class="nav__items">
+						<li class="nav__item">
+							<a href="#About" class="nav__link">About</a>
+						</li>
+						<li class="nav__item">
+							<a href="#Skills" class="nav__link">Skills</a>
+						</li>
+						<li class="nav__item">
+							<a href="#projects" class="nav__link">Projects</a>
+						</li>
+						<li class="nav__item">
+							<a href="#contact" class="nav__link">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__text-box row">
+				<div class="header__text">
+					<h1 class="heading-primary">
+						<span>Hii 👋 I'm Amit Singh</span>
+					</h1>
+					<p>Learner | A Full Stack Developer.</p>
+					<a href="#contact" class="btn btn--pink">Get in touch</a>
+				</div>
+			</div>
+		</header>
+
+		<main role="main">
+			<section class="about" id="About">
+				<div class="row">
+					<h2>About Me</h2>
+					<div class="about__content">
+						<div class="about__text">
+							<p>
+								Innovative, task-driven professional with a strong understanding
+								of web development, along with 30 weeks(1000+ hrs) of coding
+								experience and excellent communication skills, seeking an
+								entry-level position to begin my career in a high-level
+								professional environment to make use of my interpersonal skills
+								to achieve the goals of a company and to intensify my skillset
+								along the way.
+							</p>
+							<a href="./doc/Amit singh Resume.pdf" download="" class="btn"
+								>My Resume</a
+							>
+						</div>
+
+						<div class="about__photo-container">
+							<img class="about__photo" src="./images/Amit Singh.jpeg" alt="" />
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="client" id="Skills">
+				<div class="row">
+					<h2>Skills</h2>
+					<div class="project__logos">
+						<img
+							src="./images/HTML5_Logo_512.png"
+							class="project__logo"
+							alt=""
+							style="background-color: white; border-radius: 12px"
+						/>
+						<img
+							src="./images/css-3-logo-png-transparent.png"
+							class="project__logo"
+							alt=""
+							style="background-color: white; border-radius: 12px; width: 150px"
+						/>
+						<img
+							src="./images/js-logo.png"
+							class="project__logo"
+							alt=""
+							style="background-color: white; border-radius: 12px"
+						/>
+						<img
+							src="./images/Java-PNG-Clipart.png"
+							class="project__logo"
+							alt=""
+							style="background-color: white; border-radius: 12px; width: 150px"
+						/>
+					</div>
+				</div>
+			</section>
+
+			<section class="work" id="projects">
+				<div class="row">
+					<h2>My Projects</h2>
+					<div class="work__boxes">
+						<div class="project">
+							<div class="project__text">
+								<h3>Kimaye-Clone</h3>
+								<p>
+									Kimi is a fruits delivery application and we created clone of
+									it's website.
+								</p>
+								<ul class="project__list">
+									<li>HTML</li>
+									<li>CSS</li>
+									<li>JavaScript</li>
+								</ul>
+
+								<div class="project__links">
+									<a
+										href="https://wonderful-kelpie-0cffcb.netlify.app/"
+										target="_blank"
+										class="link__text"
+									>
+										Live ↗
+									</a>
+									<a
+										href="https://github.com/Amit-singh-05/kimaye-Clone"
+										title="View Source Code"
+										target="_blank"
+									>
+										<img
+											src="./images/github.svg"
+											class="project__code"
+											alt="GitHub"
+										/>
+									</a>
+								</div>
+							</div>
+							<div class="project__image-box">
+								<img
+									src="./images/kimi.png"
+									class="work__image"
+									alt="Project 1"
+								/>
+							</div>
+						</div>
+
+						<div class="project">
+							<div class="project__text">
+								<h3>Mailtrap-Clone</h3>
+								<p>
+									Mailtrap is a testing tool and we created clone of its
+									website.
+								</p>
+								<ul class="project__list">
+									<li>Html</li>
+									<li>Css</li>
+									<li>Javascript</li>
+								</ul>
+
+								<div class="project__links">
+									<a
+										href="https://cerulean-pika-267e02.netlify.app/"
+										class="link__text"
+									>
+										Live ↗
+									</a>
+									<a href="https://github.com/Amit-singh-05/anxious-love-3470">
+										<img
+											src="./images/github.svg"
+											class="project__code"
+											title="View Source Code"
+											alt="GitHub"
+										/>
+									</a>
+								</div>
+							</div>
+							<div class="project__image-box">
+								<img
+									src="./images/mailtrap.png"
+									class="work__image"
+									alt="Project 1"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<section class="contact" id="contact">
+			<div class="row">
+				<h2>Get in Touch</h2>
+				<div class="contact__info">
+					<p>
+						"Hi 👋" in any case feel free to Let me know. I will do my best to
+						respond back. 😊 The quickest way to reach out to me is via an
+						email.
+					</p>
+					<a href="mailto:ami9sin05@gmail.com" class="btn">Mail me</a>
+				</div>
+			</div>
+		</section>
+
+		<footer role="contentinfo" class="footer">
+			<div class="row">
+				<ul class="footer__social-links">
+					<li class="footer__social-link-item">
+						<a
+							href="https://github.com/Amit-singh-05/"
+							title="Link to Github Profile"
+							target="_blank"
+						>
+							<img
+								src="./images/github.svg"
+								class="footer__social-image"
+								alt="Github"
+							/>
+						</a>
+					</li>
+					<li class="footer__social-link-item">
+						<a
+							href="https://www.linkedin.com/in/amit-singh-b465b41a4/"
+							title="Link to Linkdin Profile"
+							target="_blank"
+						>
+							<img
+								src="./images/linkedin.svg"
+								class="footer__social-image"
+								alt="Linkdin"
+							/>
+						</a>
+					</li>
+				</ul>
+
+				<p>
+					&copy; 2022 Designed and Built by Amit Singh. Contact : +91 8602136459
+					or Mail at : ami9sin05@gmail.com
+				</p>
+			</div>
+		</footer>
+
+		<a href="#top" class="back-to-top" title="Back to Top">
+			<img
+				src="./images/arrow-up.svg"
+				alt="Back to Top"
+				class="back-to-top__image"
+			/>
+		</a>
+		<script src="./main.js"></script>
+	</body>
 </html>
