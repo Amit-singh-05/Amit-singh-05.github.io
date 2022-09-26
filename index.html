@@ -9,7 +9,9 @@
 		<meta name="description" content="Amit Singh Portfolio." />
 		<meta name="keywords" content="Amit, Html, Css, Javascript and Java" />
 		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 	</head>
+	
 
 	<body>
 		<header class="header" role="banner" id="top">
@@ -62,9 +64,14 @@
 							>
 						</div>
 
+
 						<div class="about__photo-container">
 							<img class="about__photo" src="./images/Amit Singh.jpg" alt="" />
 						</div>
+					</div>
+					<br />
+					<div class="calendar">
+						Loading the data just for you.
 					</div>
 				</div>
 			</section>
@@ -253,3 +260,20 @@
 		<script src="./main.js"></script>
 	</body>
 </html>
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+<script>
+    GitHubCalendar(".calendar", "Amit-singh-05");
+
+   
+    GitHubCalendar(".calendar", "Amit-singh-05", { responsive: true });
+
+    
+    GitHubCalendar(".calendar", "Amit-singh-05", {
+       proxy (username) {
+         return fetch(`https://your-proxy.com/github?user=${Amit-singh-05}`)
+       }
+    }).then(r => r.text())
+</script>
