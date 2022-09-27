@@ -793,13 +793,15 @@ body:not(.user-is-tabbing) a:focus {
 	border: 5px solid white;
 	border-radius: 50%;
 	background-color: #1b1b1b;
-	padding: 20px;
-	width: 200px;
+	padding: 30px;
+	height: 15rem;
+	max-width: 15rem;
+	display: grid;
+	align-items: center;
+	align-content: center;
 	
 }
 .statistics>p{
-	/* line-height: 0%; */
 	text-align: center;
-	font-weight: bolder;
-	font-size: x-large;
 }
+
