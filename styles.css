@@ -394,7 +394,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
-	height: 100vh;
+	height: 80vh;
 	font-size: var(--font-size-normal);
 }
 
@@ -493,6 +493,7 @@ body:not(.user-is-tabbing) a:focus {
 .project__logo {
 	height: 15rem;
 	max-width: 15rem;
+	padding: 15px;
 }
 
 @media (max-width: 1240px) {
