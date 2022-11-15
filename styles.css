@@ -511,7 +511,7 @@ body:not(.user-is-tabbing) a:focus {
 @media (min-width: 901px) {
 	.project__image-box {
 		flex: 1;
-		margin: 0 0 0 10rem;
+		/* margin: 0 0 0 10rem; */
 		/* border: 1px solid red; */
 	}
 }
