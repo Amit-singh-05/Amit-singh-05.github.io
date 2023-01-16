@@ -32,8 +32,17 @@
 							<a href="#contact" class="nav__link">Contact</a>
 						</li>
 						<li class="nav__item">
-							<a href="./doc/Amit singh Resume.pdf" class="nav__link">Resume</a>
+							<a href="./doc/Amit singh Resume.pdf"  target="_blank" id="dual_fn_res" download class="nav__link">Resume</a>
 						</li>
+			<!-- ************************************************************************************************************************** -->
+							<script>
+								document.getElementById("dual_fn_res").addEventListener("click", dual_fn);
+
+							function dual_fn() {
+								window.location.href = "./doc/Amit singh Resume.pdf";
+							}
+							</script>
+			<!-- ************************************************************************************************************************** -->
 					</ul>
 					<div class="hamburger">
 						<span class="bar"></span>
@@ -68,11 +77,17 @@
 								to achieve the goals of a company and to intensify my skillset
 								along the way.
 							</p>
-							<a href="./doc/Amit singh Resume.pdf" download="" class="btn"
-								>My Resume</a
-							>
+							<a href="./doc/Amit singh Resume.pdf" target="_blank" id="dual_fn_res2" download class="btn">My Resume</a>
 						</div>
+		<!-- ************************************************************************************************************************** -->
+							<script>
+								document.getElementById("dual_fn_res2").addEventListener("click", dual_fn);
 
+							function dual_fn() {
+								window.location.href = "./doc/Amit singh Resume.pdf";
+							}
+							</script>
+		<!-- ************************************************************************************************************************** -->
 						<div class="about__photo-container">
 							<img class="about__photo" src="./images/Amit Singh.jpg" alt="" />
 						</div>
