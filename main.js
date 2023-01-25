@@ -52,3 +52,25 @@ document.querySelectorAll('.nav__item').forEach((n) =>
 	})
 );
 
+
+
+const playvideo = document.getElementById("playvideo");
+const video = document.getElementById("video");
+const thumbnail = document.getElementById("thumbnail");
+
+thumbnail.addEventListener('click', () => {
+	video.style.display = "block";
+  thumbnail.style.display="none"
+  video.play();
+});
+
+video.addEventListener('click', () => {
+	video.style.display = "none";
+  thumbnail.style.display="block"
+});
+
+playvideo.addEventListener('click', () => {
+	video.style.display = "block";
+  thumbnail.style.display="none"
+  video.play();
+});

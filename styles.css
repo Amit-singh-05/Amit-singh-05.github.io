@@ -798,6 +798,11 @@ body:not(.user-is-tabbing) a:focus {
 	display: none;
 	cursor: pointer;
 }
+#video{
+	border-radius: 2%;
+	cursor: pointer;
+	width: 100%;
+}
 .bar {
 	display: block;
 	width: 25px;
