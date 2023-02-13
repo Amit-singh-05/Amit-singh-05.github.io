@@ -494,9 +494,10 @@ body:not(.user-is-tabbing) a:focus {
 	}
 }
 
-#project__logos {
-	display: flex;
-	justify-content: space-between;
+.project__logos {
+	/* display: flex;
+	justify-content: space-between; */
+	text-align: center;
 }
 
 .project__logo {
