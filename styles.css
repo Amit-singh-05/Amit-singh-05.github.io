@@ -505,6 +505,9 @@ body:not(.user-is-tabbing) a:focus {
 	justify-content: space-between; */
 	text-align: center;
 }
+.statistics__out {
+	text-align: center;
+}
 .header__text-box{
 	display: flex;
 	align-items: center;
@@ -537,6 +540,14 @@ body:not(.user-is-tabbing) a:focus {
 	max-width: 15rem;
 	margin-left: 1.5px;
 	margin-right: 1px;
+}
+.statistics__logo{
+	height: 15rem;
+	max-width: 50rem;
+	margin-left: 1.5px;
+	margin-right: 1px;
+	border: 1px solid white;
+	border-radius: 10px;
 }
 
 .about__content {
@@ -963,11 +974,11 @@ body:not(.user-is-tabbing) a:focus {
 			}	
 
 
-.statistics__out{
+/* .statistics__out{
 	display: flex;
 	justify-content: space-between;
 	width: auto;
-}
+} */
 
 /* #statistics__logos{
 	justify-content: space-between;
