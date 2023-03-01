@@ -54,7 +54,7 @@ document.querySelectorAll('.nav__item').forEach((n) =>
 
 
 
-const playvideo = document.getElementById("playvideo");
+const playvideo = document.getElementById("playvideo")
 const video = document.getElementById("video");
 const thumbnail = document.getElementById("thumbnail");
 
@@ -73,4 +73,26 @@ playvideo.addEventListener('click', () => {
 	video.style.display = "block";
   thumbnail.style.display="none"
   video.play();
+});
+
+
+const playvideo2 = document.getElementById("playvideo2")
+const video2 = document.getElementById("video2");
+const thumbnail2 = document.getElementById("thumbnail2");
+
+thumbnail2.addEventListener('click', () => {
+	video2.style.display = "block";
+  thumbnail2.style.display="none"
+  video2.play();
+});
+
+video2.addEventListener('click', () => {
+	video2.style.display = "none";
+  thumbnail2.style.display="block"
+});
+
+playvideo2.addEventListener('click', () => {
+	video2.style.display = "block";
+  thumbnail2.style.display="none"
+  video2.play();
 });
