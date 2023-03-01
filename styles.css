@@ -542,14 +542,33 @@ body:not(.user-is-tabbing) a:focus {
 	margin-right: 1px;
 }
 .statistics__logo{
-	height: 15rem;
+	height: 20rem;
 	max-width: 50rem;
 	margin-left: 1.5px;
 	margin-right: 1px;
 	border: 1px solid white;
 	border-radius: 10px;
 }
-
+@media (max-width: 500px) {
+	.statistics__logo{
+		height: 15rem;
+		max-width: 50rem;
+		margin-left: 1.5px;
+		margin-right: 1px;
+		border: 1px solid white;
+		border-radius: 10px;
+	}
+}
+@media (max-width: 370px) {
+	.statistics__logo{
+		height: 13rem;
+		max-width: 50rem;
+		margin-left: 1.5px;
+		margin-right: 1px;
+		border: 1px solid white;
+		border-radius: 10px;
+	}
+}
 .about__content {
 	display: flex;
 	flex-direction: row-reverse;
